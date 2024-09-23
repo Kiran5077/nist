@@ -1,0 +1,38 @@
+.club{
+    margin-top: 30px;
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 10px;
+
+}
+.clubs{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1500px;
+}
+.clubs-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: solid;
+   
+    width: 200px;
+    text-align: center;
+    background-color: #f5f5f5;
+    overflow-x:hidden;
+    
+
+}
+.clubs-detail img{
+    width: 70%;
+    border-radius:20px;
+    flex-wrap: wrap;
+    margin-top: 20px ;
+    gap: 4px;
+}
